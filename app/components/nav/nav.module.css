@@ -17,5 +17,6 @@
 .menu li {
   list-style-type: none;
   font-family: sans-serif;
-  font-weight: 600;
+  font-weight: 400;
+  letter-spacing: 0.5px;
 }

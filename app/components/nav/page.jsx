@@ -17,8 +17,12 @@ function Navbar() {
           <Link href="/">
             <li>Home</li>
           </Link>
-          <li>Blogs</li>
-          <li>About</li>
+          <Link href="/blogs">
+            <li>Blogs</li>
+          </Link>
+          <Link href="/about">
+            <li>About</li>
+          </Link>
         </ul>
       </div>
       <div>
