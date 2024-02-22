@@ -22,7 +22,11 @@ export default function Home() {
             <Link href="/blogs">
               <Button
                 text={"Explore more"}
-                customStyle={{ backgroundColor: "black", color: "yellow" }}
+                customStyle={{
+                  backgroundColor: "black",
+                  color: "yellow",
+                  padding: ".5rem 1rem",
+                }}
               />
             </Link>
           </div>
