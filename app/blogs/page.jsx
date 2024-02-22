@@ -3,7 +3,6 @@ import Link from "next/link";
 
 async function Blogs() {
   const posts = await getAllPosts();
-  console.log(posts);
 
   return (
     <main className="text-center mt-6">
